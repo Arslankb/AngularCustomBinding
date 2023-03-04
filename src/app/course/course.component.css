@@ -1,0 +1,64 @@
+.course-container{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 22px;
+    height: 420px;
+}
+
+.course-card{
+    width: 220px;
+    height: 350px;
+    margin: 25px 10px;
+    background-color: #F8F9F9;
+}
+
+.course-name{
+    text-align: center;
+}
+
+.course-description{
+    margin: 10px 0px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.details{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.course-type{
+    width: 50%;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.course-button{
+    display: flex;
+}
+
+.btn{
+    width: 140px;
+    
+}
+.btn-buy{
+    padding: 10px 15px;
+    background-color: #ce5d5d;
+    border-style: none;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block; 
+    margin-right: 10px;
+    margin-top: 17px;
+}
+.btn-show{
+    padding: 7px 10px;
+    background-color: #90EE90;
+    border-style: none;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block; 
+    margin-right: 0px;
+    margin-top: 17px;
+}
